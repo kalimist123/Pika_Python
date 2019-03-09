@@ -1,0 +1,15 @@
+
+1.. Install Choco
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+2. Instal CPPBuildTools
+choco install visualcppbuildtools
+
+
+3. install odbc driver
+
+https://www.microsoft.com/en-us/download/details.aspx?id=56567
+
+4. install Spacy
+
+pip install spacy
